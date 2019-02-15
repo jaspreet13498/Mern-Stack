@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<style>
+.xyz{
+background:rgba(255, 0, 0, 0.5);
+margin:0 500px  0 500px;
+text-align:left;
+}
+input{
+border-radius:10px;
+border-color:grey;
+}
+legend{
+font-size:30px;
+}
+textarea{
+  border-radius:10px;
+}
+</style>
+</head>
+<body>
+  <form>
+<fieldset class="xyz">
+<legend>Introduction</legend>
+Name: <input type="text" id="name" minlenth="5" required><br><br>
+Mobile No: <input type="text" id="mob" minlength="10" maxlength="10" required><br><br>
+Email: <input type="email" id="email" required><br><br>
+Password: <input type="password" id="pass" maxlength="5" required><br><br>
+Gender:<br>
+<input type="radio" name="gender" >Male<br>
+<input type="radio" name="gender">Female<br><br>
+Hobbies:<br>
+ <input type="checkbox" >Reading <br>
+<input type="checkbox" >Music <br>
+<input type="checkbox" >Travelling <br>
+<input type="checkbox" >Badminton <br>
+About Me: <textarea rows="5" cols="50"></textarea>  <br>
+<input type="submit" value="Submit" name="submit"  id="btn"><br>
+</fieldset>
+</form>
+<body>
+</html>
